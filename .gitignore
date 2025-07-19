@@ -6,6 +6,8 @@ build/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
+.idea/codeStyles/
+.idea/kotlinc.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
@@ -43,3 +45,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### repo specific ###
+result.log
+Bilder/

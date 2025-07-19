@@ -5,8 +5,8 @@ import numpy as np
 import math
 
 # Zielgröße nach Erweiterung
-TARGET_WIDTH = 780
-TARGET_HEIGHT = 1075
+TARGET_WIDTH = 815
+TARGET_HEIGHT = 1110
 
 # Berechne Erweiterung pro Seite
 def calculate_padding(original_size, target_size):
