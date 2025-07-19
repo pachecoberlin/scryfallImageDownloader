@@ -177,7 +177,7 @@ def process_images():
             # das macht einen schwrzen balken der nicht immer gut ist.
             # extended_img = extend_black_v_shape(extended_img, pad_bottom, pad_left, pad_right)
 
-            output_name = f"finally_{filename}"
+            output_name = f"MIRRORED_{filename}"
             extended_img.save(output_name)
 
 process_images()

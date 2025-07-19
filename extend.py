@@ -272,7 +272,7 @@ def process_images():
             
             extended_img = extend_black_v_shape(img, extended_img, pad_bottom, pad_left, pad_right)
             # Ergebnis speichern
-            cv2.imwrite("Done"+filename, extended_img)
+            cv2.imwrite("EXTENDED_"+filename, extended_img)
 
             #output_name = f"finally_{filename}"
             #extended_img.save(output_name)
