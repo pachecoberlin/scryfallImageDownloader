@@ -1,9 +1,13 @@
 # scryfallImageDownloader
 Download images from scryfall, extend and mirror edges
 
-First create a deck on scryfall.
+First create a deck on scryfall. You can export from Moxfield, but may have some errors and/or missing cards. Vielleicht besser die Bilder bei Scryfall auswählen.
 Second export as Spreadsheet (csv file).
 First Parameter is path to csv sheet.
 Images are downloaded.
+see result.log for missing images, normally double sided fail
 
-Then you may copy and call justmirrored.py in folder where images are to extend the images and either mirror the edges.
+Then you may copy and call justmirrored.py in folder where images are to extend the images and mirror the edges (or use extend.py to extend the black bottom border).
+
+Go to https://proxyprint.taxiera.net/ and use Card size standard, size in mm 210 x 297, Cols 3, Enable bleed edge, bleed edge 2mm, some color, guides width 1 px, unchecked guides at bleed edge. See proxyprint.taxiera.net.jpg
+Use mtg.jpeg for the card backs. Click on card to double it.
