@@ -1,8 +1,8 @@
 import os
 from PIL import Image, ImageDraw, ImageOps
 
-# Zielgröße nach Erweiterung
-TARGET_WIDTH = 815
+# Zielgröße nach Erweiterung, korrekte Größe für MPC Fill mathematisch wäre es 815x1110
+TARGET_WIDTH = 816
 TARGET_HEIGHT = 1110
 
 # Berechne Erweiterung pro Seite
