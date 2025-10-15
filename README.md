@@ -11,3 +11,4 @@ Then you may copy and call justmirrored.py in folder where images are to extend 
 
 Go to https://proxyprint.taxiera.net/ and use Card size standard, size in mm 210 x 297, Cols 3, Enable bleed edge, bleed edge 2mm, some color, guides width 1 px, unchecked guides at bleed edge. See proxyprint.taxiera.net.jpg
 Use mtg.jpeg for the card backs. Click on card to double it.
+For US Letter size, which my 310 gsm blackcard stock is use 216 x 283 for 3mm bleed, but may have problems since paper is only 216x279. So you can set 216x279 with 2mm bleed
