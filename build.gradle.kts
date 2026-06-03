@@ -23,7 +23,7 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(23)
+    jvmToolchain(21)
 }
 //application {
 //    mainClass.set("MainKt") // Falls deine Datei Main.kt heißt

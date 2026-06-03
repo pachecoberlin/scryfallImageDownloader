@@ -35,6 +35,7 @@ fun main(args: Array<String>): kotlin.Unit = runBlocking {
     outputFolder.mkdirs()
 
     val dispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
+    val jsonReader = Json { ignoreUnknownKeys = true }
 
     rows.mapIndexed { index, parts ->
         launch(dispatcher) {
@@ -54,8 +55,7 @@ fun main(args: Array<String>): kotlin.Unit = runBlocking {
 
             try {
                 val json = URI(apiUrl).toURL().readText()
-//                val json = URL(apiUrl).readText()
-                val response = Json { ignoreUnknownKeys = true }.decodeFromString<ScryfallResponse>(json)
+                val response = jsonReader.decodeFromString<ScryfallResponse>(json)
                 val pngUrl = response.image_uris?.png
 
                 if (pngUrl == null) {
